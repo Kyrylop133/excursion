@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC 
+"-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" 
+"http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+
+	<definition name="base.definition" template="/WEB-INF/views/layout.jsp">
+		<put-attribute name="header" value="/WEB-INF/views/tiles/header.jsp" />
+			<put-attribute name="sidebar" value="/WEB-INF/views/tiles/sidebar.jsp" />
+			<put-attribute name="main_content" value="" />
+			<put-attribute name="footer" value="/WEB-INF/views/tiles/footer.jsp" />
+	</definition>
+
+	<definition name="excursion" extends="base.definition">
+		<put-attribute name="title" value="Екскрсії містом" />
+		<put-attribute name="main_content"
+			value="/WEB-INF/views/excursion/excursion.jsp" />
+	</definition>
+
+	<definition name="excursionReg" extends="base.definition">
+		<put-attribute name="title" value="Екскрсії містом" />
+		<put-attribute name="main_content"
+			value="/WEB-INF/views/excursion/excursionReg.jsp" />
+	</definition>
+
+	<definition name="home" extends="base.definition">
+		<put-attribute name="title" value="Головна" />
+		<put-attribute name="main_content" value="/WEB-INF/views/home/home.jsp" />
+	</definition>
+
+	<definition name="orders" extends="base.definition">
+		<put-attribute name="title" value="Замовлення" />
+		<put-attribute name="main_content" value="/WEB-INF/views/orders/orders.jsp" />
+	</definition>
+
+	<definition name="admin" extends="base.definition">
+		<put-attribute name="title" value="Адміністратор" />
+		<put-attribute name="main_content" value="/WEB-INF/views/admin/admin.jsp" />
+	</definition>
+
+	<definition name="administration" extends="base.definition">
+		<put-attribute name="title" value="Адміністрування" />
+		<put-attribute name="main_content"
+			value="/WEB-INF/views/admin/administration.jsp" />
+	</definition>
+	<definition name="aboutas" extends="base.definition">
+		<put-attribute name="title" value="Про Нас" />
+		<put-attribute name="main_content" value="/WEB-INF/views/aboutas/aboutas.jsp" />
+	</definition>
+
+
+</tiles-definitions>
