@@ -11,4 +11,5 @@ public interface OrdersService {
 	public int price(OrdersDTO  ordersDTO);
 	public List<OrdersDTO> getAllORders();
 	public void activate(Orders orders);
+	public void delite(Orders orders);
 }

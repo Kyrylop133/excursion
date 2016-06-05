@@ -16,6 +16,7 @@ import org.springframework.stereotype.Service;
 import com.college.excursion.DTO.OrdersDTO;
 import com.college.excursion.dao.ExcursionDao;
 import com.college.excursion.dao.OrdersDao;
+import com.college.excursion.dao.UserDao;
 import com.college.excursion.model.Excursion;
 import com.college.excursion.model.Orders;
 import com.college.excursion.model.Price;
@@ -30,6 +31,9 @@ public class OrdersServiceImpl implements OrdersService {
 
 	@Inject
 	private OrdersDao ordersDao;
+	
+	@Inject
+	private UserDao userDao;
 
 	@Transactional
 	public void addOrders(OrdersDTO ordersDTO) {
@@ -79,5 +83,11 @@ public class OrdersServiceImpl implements OrdersService {
 	 ordersActive.setConfirm(true);
 	 ordersDao.update(ordersActive);
 	}
+	@Transactional
+	public void delite(Orders orders){
+	 Orders ordersDelite =	ordersDao.findById(orders.getId());
+	 ordersDao.remove(ordersDelite);;
+	}
+	
 
 }

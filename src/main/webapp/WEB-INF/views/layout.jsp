@@ -15,33 +15,25 @@
 <link
 	href="<c:url value="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap-theme.min.css" />"
 	rel="stylesheet">
-	<link rel="stylesheet"
-	href="<c:url value="/resources/css/datetimepicker/bootstrap-datetimepicker.min.css" />" />
+	
 	<link href="<c:url value="/resources/css/main.css" />" rel="stylesheet">
+	<link href="<c:url value="/resources/css/theme.min.css" />" rel="stylesheet">
 <link href="<c:url value="/resources/css/sidebar.css" />" rel="stylesheet">
-<link href="<c:url value="/resources/css/home.css" />" rel="stylesheet">
-<link href="<c:url value="/resources/css/excursion.css" />" rel="stylesheet">
 <link href="<c:url value="/resources/css/admin.css" />" rel="stylesheet">
+
 <script type="text/javascript"
 	src="<c:url value="https://code.jquery.com/jquery-2.2.3.min.js"/>"></script>
 <script type="text/javascript"
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-<script type="text/javascript"
-	src="<c:url value="/resources/js/datetimepicker/moment-with-locales.min.js" />"></script>
-<script type="text/javascript"
-	src="<c:url value="/resources/js/datetimepicker/bootstrap-datetimepicker.min.js" />"></script>
-	<script type="text/javascript"
-	src="<c:url value="/resources/js/datetimepicker/locales/bootstrap-datetimepicker.ua.js" />"></script>
-	
-
 </head>
-<body>
-	<div class="sidebar">
-		<tiles:insertAttribute name="sidebar" />
-	</div>
+<body style=" min-width:570px ">
 <div class="header">
 		<tiles:insertAttribute name="header" />
 	</div> 
+	<div class="sidebar">
+		<tiles:insertAttribute name="sidebar" />
+	</div>
+
 	<div class="content">
 		<tiles:insertAttribute name="main_content" />
 	</div>

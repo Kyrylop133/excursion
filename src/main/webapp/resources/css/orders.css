@@ -1,7 +1,12 @@
 .orders{
+	margin-top: 10px;
 	max-width: 600px;
 	margin-left: 20%;
 	
+}
+
+.orders label{
+	font-size: 20px;
 }
 @media screen and (max-width: 767px) {
 .orders{

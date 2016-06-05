@@ -1,10 +1,6 @@
-.img-responsive{
-	width: 500px;
-	
-}
+
 .excursion{
-	width: 90%;
-	margin-top: 53px;
+
 	margin-left: 3%;
 	margin-right: 3%;
 }
@@ -14,4 +10,42 @@ font-size: 16px;
 }
 
 
+.carousel {
+  height: 500px;
+   width: 500px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
 
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+   width: 500px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+ width: 500px;
+  height: 500px;
+}
+.first-slide {
+
+}
+
+.orders label{
+	font-size: 20px;
+}
+
+.orders{
+	
+	margin: 10px;
+}
+.formconteiner{
+	border: 1px solid #ddd;
+	padding: 3px;
+}

@@ -37,11 +37,9 @@ function save() {
 		'excursionName' : $('#excursion').val(),
 		'mambers' : $('#members').val(),
 		'excursionTime' : $('#date').val() + " " + $('#time').val(),
-		'user' : {
-			'userName' : $('#userName').val(),
-			'email' : $('#email').val(),
-			'phoneNum' : $('#phonenum').val()
-		},
+		'userName' : $('#userName').val(),
+		'email' : $('#email').val(),
+		'phoneNum' : $('#phonenum').val(),
 	}
 	$.ajax({
 		url : "orders/save",

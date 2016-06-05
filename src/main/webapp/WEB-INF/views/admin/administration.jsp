@@ -17,6 +17,7 @@
 				<th>Email замовника</th>
 				<th>Номер замовника</th>
 				<th>Підтвердження</th>
+				<th>Видалення</th>
 			</tr>
 		</thead>
 		<tbody id="content">

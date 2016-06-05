@@ -1,4 +1,41 @@
 .header{
 	width: 100%;
-	height: 150px;
+	height: 200px;
+	background-image: url(../images/bac.jpg);
 }
+.headerImg{
+	height: 150px ;
+}
+.headerImgmin{
+height: 150px ;
+	position: absolute;
+	left: -500px;
+}
+@media screen and (max-width: 960px) {
+.headerImg{
+	height: 150px ;
+
+	position: absolute;
+	left: -5000px;
+}
+.headerImgmin{
+height: 150px ;
+position: static;
+	
+}
+}
+	
+.headerConteiner{
+		padding-top:50px;
+}
+.contact{
+	margin-top: 5px;
+	text-decoration: none;
+	color: white;
+float: right;
+margin-right: 100px;	
+	
+}
+
+	
+	

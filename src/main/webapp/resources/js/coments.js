@@ -1,14 +1,13 @@
 $(function() {
 	$('#allcoments').html("");
-	$
-			.ajax({
+	$.ajax({
 				url : "aboutas/showComents",
 				type : 'GET',
 				success : function(data) {
 					for ( var i in data) {
 						var div = $('<div>');
 						var label = $('<label>').text(data[i].userName).attr(
-								"for", "coment-"+i);
+								"for", "coment-"+i).attr("for", "coment-"+i);
 						var p = $('<p>').text(data[i].coment).attr("id",
 								"coment-"+i);
 						var hr=$('<hr>').attr("class","featurette-divider");

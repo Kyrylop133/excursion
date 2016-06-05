@@ -125,6 +125,7 @@ public class Orders {
 	  protected void onCreate() {
 		orderTime = new Date();
 		this.confirm = false;
+		
 	  }
 
 }

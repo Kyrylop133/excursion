@@ -4,7 +4,7 @@
 <%@ taglib uri="http://www.springframework.org/security/tags"
 	prefix="sec"%>
 <%@ page session="false"%>
-<nav class="navbar navbar-inverse navbar-fixed-top sidebar">
+<nav class="navbar navbar-inverse sidebar" style="margin-bottom: 0px;">
 	<div class="container-fluid ">
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle collapsed"

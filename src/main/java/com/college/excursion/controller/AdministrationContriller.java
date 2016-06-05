@@ -46,4 +46,13 @@ public class AdministrationContriller {
 		return new ResponseEntity<>(HttpStatus.OK);
 
 	}
+	@RequestMapping(value = "/delite", method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE)
+	public ResponseEntity<Void> deliteUser(@RequestBody OrdersDTO ordersDTO) {
+		Orders orders = new Orders(Integer.parseInt(ordersDTO.getIdString()));
+		ordersService.delite(orders);;
+
+		
+		return new ResponseEntity<>(HttpStatus.OK);
+
+	}
 }
