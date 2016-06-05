@@ -18,11 +18,11 @@ $(function() {
 						var tdEmail = $('<td>').text(data[index].email);
 						var tdPhoneNum = $('<td>').text(data[index].phoneNum);
 						var buttonAccept = $('<button>').attr("class",
-								"btn btn-info transfed ").attr("data-toggle",
+								"btn btn-success transfed ").attr("data-toggle",
 								"modal").attr("data-target", "#myModal").attr(
 								'id', data[index].id).attr("value",data[index].id).text("Підтвердити");
 						var buttonDelete = $('<button>').attr("class",
-						"btn btn-info transfed ").attr(
+						"btn btn-danger transfed ").attr(
 						'id', data[index].id).attr("value",data[index].id).text("Видалити");
 						if (data[index].confirm) {
 							var tdButtonAccept = $('<td>').text("підтверджено");

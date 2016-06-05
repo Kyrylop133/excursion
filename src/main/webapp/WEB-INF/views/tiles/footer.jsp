@@ -17,6 +17,6 @@
 				<li><img alt="" src="${context}/resources/images/icons/t.png"></li>
 
 		</ul>
-		<span class="footer-text">© 2016 Excursion. All rights reserved.</span>
+		<span class="footer-text">© 2016 Leopolis Tour. All rights reserved.</span>
 	</div>
 </footer>
