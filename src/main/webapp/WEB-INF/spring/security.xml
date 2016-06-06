@@ -12,7 +12,7 @@
 		<form-login authentication-failure-url="/admin/fail"
 			 login-processing-url="/login_admin"
 			password-parameter="password" username-parameter="name"
-			default-target-url="/admin" login-page="/admin" />
+			default-target-url="/administration" login-page="/administration" />
 	</http>
 	<beans:bean id="customAFH"
 		class="com.college.excursion.listener.CustomAuthenticationFailureHandler" />

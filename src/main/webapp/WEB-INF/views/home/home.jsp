@@ -67,7 +67,7 @@
 	</a>
 </div>
 <div>
-	<div class="marketing row">
+	<div style=" text-align: justify;" class="marketing row">
 		<div class="col-md-7">
 			<div class="texthome">
 			<h3 id="aboutTitle"> Львів - місто, яке зачаровує з першого погляду</h3>

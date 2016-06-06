@@ -11,10 +11,10 @@
 <footer class="footer" role="contentinfo">
 	<div class="container">
 		<ul class="bs-docs-footer-links">
-			<li><img alt="" src="${context}/resources/images/icons/v.png"></li>
-				<li><img alt="" src="${context}/resources/images/icons/f.png"></li>
-				<li><img alt="" src="${context}/resources/images/icons/i.png"></li>
-				<li><img alt="" src="${context}/resources/images/icons/t.png"></li>
+			<li><a href=""><img alt="" src="${context}/resources/images/icons/v.png"></a></li>
+				<li><a href=""><img alt="" src="${context}/resources/images/icons/f.png"></a></li>
+				<li><a href=""><img alt="" src="${context}/resources/images/icons/i.png"></a></li>
+				<li><a href=""><img alt="" src="${context}/resources/images/icons/t.png"></a></li>
 
 		</ul>
 		<span class="footer-text">© 2016 Leopolis Tour. All rights reserved.</span>
